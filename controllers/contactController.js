@@ -34,6 +34,7 @@ const getContact = asyncHandler(async (req, res) => {
 //@access public
 const putContact = asyncHandler(async (req, res) => {
   res.status(200).json({ message: `Update contact of id=${req.params.id}` });
+  const updateContact = await Contact.findByIdAndUpdate(
 });
 
 //@desc Delete contact
