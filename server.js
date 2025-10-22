@@ -12,6 +12,7 @@ app.use(express.json());
 
 // To include all routes from contactRoutes
 app.use("/api/contacts", require("./routes/contactRoutes"));
+app.use("/api/users", require("./routes/userRoutes"));
 
 // To use errorHandler middleware
 app.use(errorHandler);
