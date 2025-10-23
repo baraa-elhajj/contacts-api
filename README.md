@@ -1,7 +1,6 @@
 # Contacts API
 
-A simple RESTful API built with **Express.js** and **MongoDB** that allows users to register, log in, and manage their personal contact list.  
-Each user can **create**, **read**, **update**, and **delete** their own contacts securely.
+A simple RESTful API built with **Express.js** and **MongoDB** that allows users to register, log in, and securely manage their personal contact list.
 
 ---
 
