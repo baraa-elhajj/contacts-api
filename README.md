@@ -20,7 +20,7 @@ Each user can **create**, **read**, **update**, and **delete** their own contact
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/contacts-api.git
+git clone https://github.com/baraa-elhajj/contacts-api.git
 cd contacts-api
 ```
 
@@ -31,7 +31,7 @@ npm install
 ```
 
 3. Set up environment variables
-   Create a .env file in the project root:
+   Create a `.env` file in the project root:
 
 ```bash
 PORT=5000
